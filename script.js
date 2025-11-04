@@ -15,3 +15,7 @@ btn.addEventListener('click', () => {
   list.appendChild(li);
   input.value = '';
 });
+const clearBtn=document.getElementById('clearBtn');
+clearBtn.addEventListener('click', () => {
+    list.innerHTML='';
+});
